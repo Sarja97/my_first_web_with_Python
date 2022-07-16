@@ -1,6 +1,55 @@
-body{
-    background: black;
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
 }
-h1{
+h2 {
+    color: black;
+}
+
+p{
     color: aliceblue;
+}
+
+.about_advice{
+    width: 500px;
+    height: 380px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.button_p{
+    width: 180px;
+    height: 70px;
+    background-color: #0093E9;
+   
+margin: auto;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px;
+}
+
+.about_button{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+.home_advice{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 12px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.advice_p{
+    color: black;
+
 }

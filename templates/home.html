@@ -1,6 +1,15 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<h2>Welcome to the home page.</h2>
+<h2 class="home_title">Welcome to the home page.</h2>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sed officia similique accusantium minima a iure, voluptate hic excepturi consequatur aliquam facilis aut illum delectus pariatur expedita, voluptatem repellendus inventore!</p>
+<div class="home_advice">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="advice_p">This is a simple hero unit, an advice that you can use in your page to inform about your company and the service you provides</p>
+    <hr class="my-4">
+    <p class="advice_p">If you click on the "Learn more" button you will be redirected to my About section</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="{{ url_for('about') }}" role="button">Learn more</a>
+    </p>
+  </div>
 {% endblock %}
